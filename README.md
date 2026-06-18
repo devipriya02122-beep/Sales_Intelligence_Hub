@@ -75,11 +75,11 @@ Sales_Intelligence_Hub/
 ---
 
 ## 📸 Screenshots
-![
-    ![alt text](image-1.png)
-](image.png)
----![alt text](image-2.png)
-
+![Login screen](image.png)
+![Dashboard](image-1.png)
+![Daily sales trend](image-2.png)
+![Sales & payment entry](image-3.png)
+![Query](image-4.png)
 ## 📜 License
 This project is licensed under the **MIT License** — free to use and modify.
 
