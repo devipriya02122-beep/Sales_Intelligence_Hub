@@ -1,10 +1,4 @@
-Perfect Devi 🌸 — here’s a **professional README.md draft** you can paste directly into your repo. It’s structured to impress recruiters and collaborators, with clear sections, badges, and setup instructions.
 
----
-
-## 📄 README.md (Ready to Paste)
-
-```markdown
 # Sales Intelligence Hub 📊
 
 A **Streamlit-powered analytics dashboard** for managing and visualizing sales data.  
