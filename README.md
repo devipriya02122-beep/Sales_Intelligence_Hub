@@ -36,7 +36,7 @@ This project integrates **dynamic SQL queries, branch filters, and financial tra
 
 SALES_INTELLIGENCE_HUB/
 │
-├── dashboard/            
+├── dashboard/
 │   ├── app.py
 │   ├── dashboard_page.py
 │   ├── load_csv_to_mysql.py
@@ -58,6 +58,7 @@ SALES_INTELLIGENCE_HUB/
 ├── LICENSE
 └── images/
     └── image.png
+
 ```
 ## ⚙️ Setup Instructions
 1. **Clone the repository**
