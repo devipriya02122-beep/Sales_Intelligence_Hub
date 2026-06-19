@@ -33,6 +33,7 @@ This project integrates **dynamic SQL queries, branch filters, and financial tra
 
 ## 📂 Project Structure
 
+
 SALES_INTELLIGENCE_HUB/
 │
 ├── dashboard/                # Core Streamlit app
@@ -56,6 +57,7 @@ SALES_INTELLIGENCE_HUB/
 ├── README.md                 # Documentation
 ├── LICENSE                   # License file
 └── images/                   # Relevant images for README/app
+
 
 ## ⚙️ Setup Instructions
 1. **Clone the repository**
