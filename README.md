@@ -59,6 +59,7 @@ SALES_INTELLIGENCE_HUB/
 └── images/
     └── image.png
 
+
 ```
 ## ⚙️ Setup Instructions
 1. **Clone the repository**
