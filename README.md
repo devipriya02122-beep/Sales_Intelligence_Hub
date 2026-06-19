@@ -32,34 +32,42 @@ This project integrates **dynamic SQL queries, branch filters, and financial tra
 ---
 
 ## 📂 Project Structure
-```
-Sales_Intelligence_Hub/
-│
-├── dashboard/
-│   ├── app.py              # Main Streamlit app
-│   ├── login.py            # Authentication page
-│   ├── dashboard_page.py   # Dashboard view
-│   ├── sales_entry_page.py # Sales entry form
-│   └── query_reports.py    # Reports with categorized queries
-│
-├── reports.sql             # SQL queries reference
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
-```
 
----
+SALES_INTELLIGENCE_HUB/
+│
+├── dashboard/                # Core Streamlit app
+│   ├── app.py
+│   ├── dashboard_page.py
+│   ├── load_csv_to_mysql.py
+│   ├── load_users.py
+│   ├── login.py
+│   ├── query_reports.py
+│   ├── sales_entry_page.py
+│
+├── datasets/                 # Source CSVs
+│   ├── branches.csv
+│   ├── customer_sales.csv
+│   ├── payment_splits.csv
+│   └── users.csv
+│
+├── schema.sql                # Database schema
+├── reports.sql               # SQL queries for reports
+├── requirements.txt          # Python dependencies
+├── README.md                 # Documentation
+├── LICENSE                   # License file
+└── images/                   # Relevant images for README/app
 
 ## ⚙️ Setup Instructions
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/Sales_Intelligence_Hub.git
+   git clone https://github.com/devipriya02122-beep/Sales_Intelligence_Hub 
    cd Sales_Intelligence_Hub
    ```
 
 2. **Create virtual environment**
    ```bash
    python -m venv venv
-   venv\Scripts\activate      # Windows
+   venv\Scripts\activate     
    ```
 
 3. **Install dependencies**
@@ -80,6 +88,7 @@ Sales_Intelligence_Hub/
 ![Daily sales trend](image-2.png)
 ![Sales & payment entry](image-3.png)
 ![Query](image-4.png)
+
 ## 📜 License
 This project is licensed under the **MIT License** — free to use and modify.
 
