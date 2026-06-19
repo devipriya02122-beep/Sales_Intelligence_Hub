@@ -36,7 +36,7 @@ This project integrates **dynamic SQL queries, branch filters, and financial tra
 
 SALES_INTELLIGENCE_HUB/
 │
-├── dashboard/                # Core Streamlit app
+├── dashboard/            
 │   ├── app.py
 │   ├── dashboard_page.py
 │   ├── load_csv_to_mysql.py
@@ -45,20 +45,20 @@ SALES_INTELLIGENCE_HUB/
 │   ├── query_reports.py
 │   ├── sales_entry_page.py
 │
-├── datasets/                 # Source CSVs
+├── datasets/
 │   ├── branches.csv
 │   ├── customer_sales.csv
 │   ├── payment_splits.csv
 │   └── users.csv
 │
-├── schema.sql                # Database schema
-├── reports.sql               # SQL queries for reports
-├── requirements.txt          # Python dependencies
-├── README.md                 # Documentation
-├── LICENSE                   # License file
-└── images/                   # Relevant images for README/app
-
-
+├── schema.sql
+├── reports.sql
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── images/
+    └── image.png
+```
 ## ⚙️ Setup Instructions
 1. **Clone the repository**
    ```bash
