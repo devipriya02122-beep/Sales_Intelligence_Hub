@@ -58,7 +58,6 @@ SALES_INTELLIGENCE_HUB/
 ├── LICENSE                   # License file
 └── images/                   # Relevant images for README/app
 
-
 ## ⚙️ Setup Instructions
 1. **Clone the repository**
    ```bash
